@@ -1,0 +1,27 @@
+.rate-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  border: 1px solid var(--primary-100);
+  img {
+    height: 20px;
+    width: 20px;
+  }
+  .title {
+    display: flex;
+    background-color: var(--primary-100);
+    overflow: hidden;
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+    padding: 16px;
+    gap:10px;
+    color: var(--primary-600);
+  }
+  .body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px;
+    color: var(--gray-600);
+  }
+}

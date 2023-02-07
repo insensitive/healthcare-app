@@ -1,0 +1,11 @@
+.primary-button {
+  background-color: var(--primary-600);
+  border: 3px solid var(--primary-600);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 16px;
+  color: var(--white);
+  font-size: 16px;
+}

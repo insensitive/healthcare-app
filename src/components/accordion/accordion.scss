@@ -1,0 +1,48 @@
+.accordion-title-btn {
+  all: unset;
+  color: var(--primary-800);
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 4px;
+  width: 344px;
+  height: 56px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 17px;
+  line-height: 1;
+  padding: 0 20px;
+  font-weight: var(--font-bold);
+}
+.accordion {
+  all: unset;
+  display: flex;
+  border-top: 1px solid var(--border-primary);
+  border-bottom: 1px solid var(--border-primary);
+  legend {
+    all: unset;
+    display: flex;
+    width: 100%;
+  }
+  [aria-expanded="true"] {
+    &.accordion-title-btn {
+      background-color: var(--primary-100);
+    }
+    .chevron {
+      transform: rotate(0deg);
+    }
+  }
+  .chevron {
+    transform: rotate(-90deg);
+  }
+  .accordion-content{
+    padding: 8px 20px;
+  }
+  [hidden=""] {
+    .accordion-content {
+      display: unset;
+    }
+  }
+}
