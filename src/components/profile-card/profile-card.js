@@ -4,6 +4,7 @@ import InfoPill from '../../components/info-pill/info-pill';
 import RateCard from '../../components/rate-card/rate-card';
 import ProfilePic from '../../imgs/profile-pic.png'
 import './profile-card.scss'
+import CardLocation from './components/card-location/card-location';
 
 function ProfileCard() {
   return (
@@ -16,7 +17,7 @@ function ProfileCard() {
             <h3>Jane Doe</h3>
             <div className='last-active'>Last active 2 hours ago</div>
           </div>
-          <CardHighlights></CardHighlights>
+          <CardLocation></CardLocation>
           <div className='view-profile-btn'><PrimaryButton name='View Profile'></PrimaryButton></div>
         </div>
       </div>

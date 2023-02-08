@@ -66,6 +66,10 @@
     }
     &:first-child .top-level-menu-item{
       color: var(--primary-600);
+      align-items: center;
+      i {
+        margin-right: 10px;
+      }
     }
   }
   .seperator {
@@ -178,7 +182,7 @@
 }
 
 // mobile
-@media screen and (max-width:1087px) {
+@media screen and (max-width:1200px) {
   .main-wrapper .sidebar {
     display: none;
   }
@@ -196,7 +200,7 @@
   .profile-card-rate-card {
     width: 100%;
   }
-  .card-highlights {
+  .card-highlights, .card-location {
     flex-direction: column;
   }
   .view-profile-btn {
@@ -349,4 +353,7 @@ button {
 .accessible-button{
   background-color: transparent;
   border: none;
+}
+b {
+  color: var(--gray-900);
 }

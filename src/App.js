@@ -83,6 +83,7 @@ function App() {
                   <ul className='menu-actions'>
                     <li className='top-level-menu-item-container'>
                       <a className='top-level-menu-item p-r-0' href='#contracts'>
+                        <i class="fa fa-bell-o" aria-hidden="true"></i>
                         Notifications
                         <span className='badge'>3</span>
                       </a>
