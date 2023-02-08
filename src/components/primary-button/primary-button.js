@@ -1,8 +1,8 @@
 import './primary-button.scss'
 
-function PrimaryButton({name}) {
+function PrimaryButton({name, onClick}) {
   return (
-    <button className='primary-button'>{name}</button>
+    <button onClick={onClick} className='primary-button'>{name}</button>
   );
 }
 

@@ -8,7 +8,8 @@
   background-color: var(--primary-100);
   color: var(--primary-600);
   button {
-    all: unset;
+    background: transparent;
+    border: none;
     display: flex;
   }
   img {

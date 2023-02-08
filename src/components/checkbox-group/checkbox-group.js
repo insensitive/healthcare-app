@@ -1,9 +1,18 @@
 import './checkbox-group.scss'
 
-function CheckboxGroup({children}) {
+function CheckboxGroup({items}) {
   return (
     <>
-      {children}
+      {items.map((item) => {
+        return (
+          <>
+            <div className='checkbox-container'>
+              <input type="checkbox" id={item.id} name={item.id} />
+              <label htmlFor={item.id}>{item.label}</label>
+            </div>
+          </>
+        )
+      })}
     </>
   );
 }

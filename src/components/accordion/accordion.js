@@ -2,8 +2,8 @@ import './accordion.scss'
 
 import { useState } from 'react';
 
-function Accordion({ id, title, children }) {
-  const [isExpanded, setIsExpanded] = useState(false);
+function Accordion({ id, title, children, open }) {
+  const [isExpanded, setIsExpanded] = useState(open);
   const toggle = () => {
     setIsExpanded(!isExpanded)
   }

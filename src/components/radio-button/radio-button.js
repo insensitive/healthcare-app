@@ -4,7 +4,7 @@ function RadioButton() {
   return (
     <>
       <div className='radio-container'>
-        <input type="radio" id="hourly" name="drone" value="hourly"/>
+        <input type="radio" id="hourly" name="drone" value="hourly" defaultChecked/>
         <label htmlFor="hourly">Hourly</label>
       </div>
 
