@@ -34,6 +34,9 @@ export const SelectLocation = () => (
     isClearable={true}
     aria-labelledby="select-postcode-label"
     inputId="search-postcode"
+    autoFocus={true}
+    openMenuOnFocus={false}
+    maxMenuHeight={175}
   />
 )
 

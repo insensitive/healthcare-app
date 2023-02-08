@@ -253,6 +253,9 @@
     border-bottom-left-radius: 0 !important;
     width: 100vw !important;
     margin: 0 !important;
+    .modal-body .location-search-btn {
+      margin-top: 10px !important;
+    }
   }
 }
 
@@ -267,8 +270,8 @@
   background-color: var(--negatives-700);
   color: var(--white);
   border-radius: 50%;
-  height: 20px;
-  width: 20px;
+  height: 22px;
+  width: 22px;
   text-align: center;
   margin-left: 10px;
 }

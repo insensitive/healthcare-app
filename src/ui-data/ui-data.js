@@ -85,28 +85,16 @@ export const interests = [
   {
     label: 'Film',
     id: 'film'
-  },
-  {
-    label: 'Countryside',
-    id: 'countryside'
-  },
-  {
-    label: 'Exercise',
-    id: 'exercise'
-  },
-  {
-    label: 'Other',
-    id: 'arothert'
-  },
-  {
-    label: 'Art',
-    id: 'art'
-  },
+  }
 ]
 
 export const dummy = [
   {
     label: 'John',
     id: 'john'
+  },
+  {
+    label: 'Doe',
+    id: 'Doe'
   }
 ]
